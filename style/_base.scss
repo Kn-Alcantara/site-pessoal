@@ -1,0 +1,14 @@
+@mixin flex-simple ($direction: row, $justify: Flex-start, $align: flex-start) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;   
+}
+@mixin body-config($direction: row, $justify: center, $align: center) { 
+    display: grid;
+    flex-direction:$direction;
+    justify-items: $justify ;
+    align-items: $align;
+}
+    
+

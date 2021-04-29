@@ -1,0 +1,27 @@
+@import 'base';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    font-family: "source code pro";
+    background: url("../img/img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    @include body-config ()
+   
+}
+
+.box{
+    background: #eee;  
+    padding: 4rem; 
+    box-shadow: 2px 2px 16px rgba(0,0,0,0.16); 
+    height: 50vh;
+    margin-top: 30px;
+    border-radius: 50px;
+}
