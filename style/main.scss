@@ -5,23 +5,56 @@
     padding: 0;
 }
 img{
-    display: block;
+    display:block;
     max-width: 100%;
+    
 }
+
 body{
     font-family: "source code pro";
     background: url("../img/img/bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     @include body-config ()
-   
+    color : #aeaeae;
+   }
+.user-img{
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
 }
-
+.title{
+    font-size: 36px;
+    font-weight: normal;
+    color: black;
+}
 .box{
     background: #eee;  
     padding: 4rem; 
     box-shadow: 2px 2px 16px rgba(0,0,0,0.16); 
     height: 50vh;
-    margin-top: 30px;
+    margin-top: 70px;
     border-radius: 50px;
+    text-align: center;
+
+     span{
+        font-size: 24px;
+    }
+    p{
+        font-size: 18px;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .Redes-Sociais{
+        @include flex-simple(row,center,center);
+        li{margin-right: 1rem;
+            list-style: none;
+            margin-top: 40px;
+            justify-content: center;
+        }
+    } 
+    
 }
+
+
+
+

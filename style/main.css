@@ -23,6 +23,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #aeaeae;
+}
+
+.user-img {
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: normal;
+  color: black;
 }
 
 .box {
@@ -31,7 +43,43 @@ body {
   -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
           box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
   height: 50vh;
-  margin-top: 30px;
+  margin-top: 70px;
   border-radius: 50px;
+  text-align: center;
+}
+
+.box span {
+  font-size: 24px;
+}
+
+.box p {
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.box .Redes-Sociais {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .Redes-Sociais li {
+  margin-right: 1rem;
+  list-style: none;
+  margin-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
