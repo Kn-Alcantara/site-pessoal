@@ -4,7 +4,6 @@
 }
 
 img {
-  display: block;
   max-width: 100%;
 }
 
@@ -23,12 +22,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #aeaeae;
 }
 
 .user-img {
   border-radius: 50%;
-  margin: 0 auto 2rem auto;
+  margin-bottom: 2rem;
 }
 
 .title {
@@ -50,12 +48,13 @@ body {
 
 .box span {
   font-size: 24px;
+  color: #aeaeae;
 }
 
 .box p {
   font-size: 18px;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-top: 10px;
+  color: #aeaeae;
 }
 
 .box .Redes-Sociais {
@@ -77,9 +76,20 @@ body {
 .box .Redes-Sociais li {
   margin-right: 1rem;
   list-style: none;
-  margin-top: 40px;
+  margin-top: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.portifolio {
+  background: #eee;
+  padding: 4rem;
+  -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  height: 50vh;
+  margin-top: 70px;
+  border-radius: 50px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

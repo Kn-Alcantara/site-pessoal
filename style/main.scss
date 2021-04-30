@@ -4,10 +4,8 @@
     margin: 0;
     padding: 0;
 }
-img{
-    display:block;
-    max-width: 100%;
-    
+img{ 
+    max-width: 100%;  
 }
 
 body{
@@ -16,11 +14,11 @@ body{
     background-attachment: fixed;
     background-size: cover;
     @include body-config ()
-    color : #aeaeae;
+  
    }
 .user-img{
     border-radius: 50%;
-    margin: 0 auto 2rem auto;
+    margin-bottom: 2rem;
 }
 .title{
     font-size: 36px;
@@ -38,23 +36,33 @@ body{
 
      span{
         font-size: 24px;
+        color : #aeaeae;
+
     }
     p{
         font-size: 18px;
-        margin-top: 2rem;
-        margin-bottom: 4rem;
+        margin-top: 10px;
+        color : #aeaeae;
+       
     }
     .Redes-Sociais{
         @include flex-simple(row,center,center);
         li{margin-right: 1rem;
             list-style: none;
-            margin-top: 40px;
+            margin-top: 30px;
             justify-content: center;
         }
     } 
-    
 }
-
+.portifolio{
+    background: #eee;  
+    padding: 4rem; 
+    box-shadow: 2px 2px 16px rgba(0,0,0,0.16); 
+    height: 50vh;
+    margin-top: 70px;
+    border-radius: 50px;
+    text-align: center;
+}
 
 
 
