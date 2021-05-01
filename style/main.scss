@@ -30,7 +30,8 @@ body{
     padding: 4rem; 
     box-shadow: 2px 2px 16px rgba(0,0,0,0.16); 
     height: 50vh;
-    margin-top: 70px;
+    margin-top:8rem ;
+    margin-bottom: 9rem;
     border-radius: 50px;
     text-align: center;
 
@@ -62,6 +63,32 @@ body{
     margin-top: 70px;
     border-radius: 50px;
     text-align: center;
+    max-width: 886px;
+   
+   
+   
+   ul{ margin-top: 3rem;
+   li{ display: grid;
+    grid-template-columns:auto 1fr ;
+    list-style: none;
+    text-align: left;
+    gap: 1rem;
+    color: #606060;
+    img{
+        margin-top: 15px;
+    }
+    h2{font-weight: normal;
+        margin-bottom: 1rem;
+        
+    }
+   img{
+       border-radius: 10px;
+      
+   }
+   
+    
+}
+}
 }
 
 

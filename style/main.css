@@ -41,7 +41,8 @@ body {
   -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
           box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
   height: 50vh;
-  margin-top: 70px;
+  margin-top: 8rem;
+  margin-bottom: 9rem;
   border-radius: 50px;
   text-align: center;
 }
@@ -91,5 +92,34 @@ body {
   margin-top: 70px;
   border-radius: 50px;
   text-align: center;
+  max-width: 886px;
+}
+
+.portifolio ul {
+  margin-top: 3rem;
+}
+
+.portifolio ul li {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  list-style: none;
+  text-align: left;
+  gap: 1rem;
+  color: #606060;
+}
+
+.portifolio ul li img {
+  margin-top: 15px;
+}
+
+.portifolio ul li h2 {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.portifolio ul li img {
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
