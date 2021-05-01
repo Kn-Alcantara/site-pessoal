@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -83,7 +84,7 @@ body {
           justify-content: center;
 }
 
-.portifolio {
+.portifólio {
   background: #eee;
   padding: 4rem;
   -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
@@ -95,11 +96,11 @@ body {
   max-width: 886px;
 }
 
-.portifolio ul {
+.portifólio ul {
   margin-top: 3rem;
 }
 
-.portifolio ul li {
+.portifólio ul li {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 1fr;
@@ -110,16 +111,16 @@ body {
   color: #606060;
 }
 
-.portifolio ul li img {
+.portifólio ul li img {
   margin-top: 15px;
 }
 
-.portifolio ul li h2 {
+.portifólio ul li h2 {
   font-weight: normal;
   margin-bottom: 1rem;
 }
 
-.portifolio ul li img {
+.portifólio ul li img {
   border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
