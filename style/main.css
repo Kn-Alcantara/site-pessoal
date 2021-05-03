@@ -84,7 +84,7 @@ body {
           justify-content: center;
 }
 
-.portifólio {
+.portfolio {
   background: #eee;
   padding: 4rem;
   -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
@@ -96,11 +96,11 @@ body {
   max-width: 886px;
 }
 
-.portifólio ul {
+.portfolio ul {
   margin-top: 3rem;
 }
 
-.portifólio ul li {
+.portfolio ul li {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 1fr;
@@ -111,16 +111,16 @@ body {
   color: #606060;
 }
 
-.portifólio ul li img {
+.portfolio ul li img {
   margin-top: 15px;
 }
 
-.portifólio ul li h2 {
+.portfolio ul li h2 {
   font-weight: normal;
   margin-bottom: 1rem;
 }
 
-.portifólio ul li img {
+.portfolio ul li img {
   border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
